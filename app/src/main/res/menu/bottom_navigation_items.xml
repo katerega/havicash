@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_item_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="AboutUs"/>
+    <item
+        android:id="@+id/action_item_send"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="buy BT"/>
+    <item
+        android:id="@+id/myswitch"
+        android:title="data switch"
+        android:actionLayout="@layout/switch_layout"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_item_receive"
+        android:icon="@drawable/ic_call_received_black_24dp"
+        android:title="CashOut"/>
+    <!--<item-->
+        <!--android:id="@+id/action_buy"-->
+        <!--android:icon="@drawable/ic_send_black_24dp"-->
+        <!--android:title="@string/item_buy"/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_withdraw"-->
+        <!--android:icon="@drawable/ic_call_received_black_24dp"-->
+        <!--android:title="@string/item_withdraw"/>-->
+
+</menu>

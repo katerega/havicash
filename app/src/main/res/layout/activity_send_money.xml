@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <AutoCompleteTextView
+      android:id="@+id/autoCompletecountry"
+      android:layout_width="match_parent"
+      android:layout_centerHorizontal="true"
+      android:textSize="12dp"
+      android:dropDownWidth="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Select Country"
+      android:layout_marginTop="100dp"
+      android:ems="10" />
+  <CheckBox
+      android:layout_width="wrap_content"
+      android:text="UGANDA"
+      android:id="@+id/ugcb"
+      android:layout_marginTop="10dp"
+      android:layout_height="wrap_content" />
+
+  <CheckBox
+      android:id="@+id/ngncb"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="200dp"
+      android:layout_marginTop="2dp"
+      android:text="NIGERIA" />
+
+  <ListView
+      android:id="@+id/Listview1"
+      android:layout_width="wrap_content"
+      android:visibility="gone"
+
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/autoCompletecountry"
+
+      android:layout_marginTop="100dp"
+      android:ems="10" />
+
+  <ListView
+      android:id="@+id/Listviewngn"
+      android:layout_width="wrap_content"
+      android:visibility="gone"
+
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/autoCompletecountry"
+
+      android:layout_marginTop="100dp"
+      android:ems="10" />
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="500dp"
+      android:gravity="center"
+      android:paddingBottom="20dip"
+      android:text="ADVERTISE HERE"
+      android:textSize="16sp"
+      android:textStyle="bold" />
+
+  <RadioGroup
+      android:layout_width="wrap_content"
+      android:layout_below="@id/Listview1"
+      android:background="#e4ba6a"
+      android:id="@+id/rgroup"
+      android:layout_height="wrap_content">
+
+  </RadioGroup>
+
+
+
+
+</RelativeLayout>

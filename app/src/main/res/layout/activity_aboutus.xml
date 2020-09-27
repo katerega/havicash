@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+<TextView
+    android:id="@+id/tf1"
+    android:text="About Us:"
+    android:textColor="#ff0000"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content">
+
+
+</TextView>
+    <TextView
+        android:id="@+id/tfrr"
+        android:text="
+haviCash™ is a Standalone Platform that hosts haviJump™ which is our
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf1"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf1v"
+        android:text="“Proprietary Software as a Service (SaaS)”
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/tfrr"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf1y"
+        android:text=" that is designed to Expand the Standard Internet/Data from any Internet/Data source globally on any Device.
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf1v"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf2"
+        android:text="
+The “Internet/Data Expansion/Boosting” is enabled via our Booster Tokens (BTs) that one can purchase on haviCash™.
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf1y"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf3"
+        android:text="
+Disclaimer: We “Do NOT” sell Internet/Data, we simply “Expand/Boost” it.
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/tf2"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf4"
+        android:text="
+ABBREVIATIONS:
+BT BOOSTER TOKEN
+SD STANDARD DATA
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf3"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tf5"
+        android:text="
+ Booster Token (1 BT) requires 15MB of Standard Data (SD) for Expansion to 1.5GB
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf4"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf6"
+        android:text="
+How haviJump™ Works:
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tf5"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tf7"
+        android:text="
+1 Booster Token (1 BT) requires 15MB of Standard Data (SD) for Expansion to 1.5GB.
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf6"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tf8"
+        android:text=" One is free to purchase as many Booster Tokens (BTs) as they like as long as there is a corresponding amount of Standard Data (SD) for each Booster Tokens (BT) “Expansion” to 1.5 GB per BT.
+"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tf7"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+
+</RelativeLayout>
